@@ -102,7 +102,129 @@ let school2 = school.slice(1)
 document.write(sam1+sam2 +is1+is2 + going1+going2 +to1+to2 +school1+school2)
 
 
+//
 
+let n1 = 15.16698
+let n2 = 7.78714
+let n3s ="12.3"
+let n3 : number = +n3s 
+let n4b = true
+let n4 : number = +n4b
+let n5b = false
+let n5 : number = +n5b
+let n6s ="321"
+let n6 : number = +n6s 
+let n7l = "Supercode"
+let n7 = n7l.length
+
+let n = n1.toFixed(2)
+n = n2.toFixed(2)
+n = n3.toFixed(2)
+n = n4.toFixed(2)
+n = n5.toFixed(2)
+n = n6.toFixed(2)
+n = n7.toFixed(2)
+
+
+//
+
+let testF = 15.16698
+let f0 = testF.toString()
+let f1 = testF.toString(2)
+let f2 = testF.toString(8)
+let f3 = testF.toString(16)
+console.log(f0);
+console.log(f1);
+console.log(f2);
+console.log(f3);
+
+testF = 7.78714
+f0 = testF.toString()
+f1 = testF.toString(2)
+f2 = testF.toString(8)
+f3 = testF.toString(16)
+console.log(f0);
+console.log(f1);
+console.log(f2);
+console.log(f3);
+
+let testStr = "12.3"
+let testNum : number = +testStr
+f0 = testNum.toString()
+f1 = testNum.toString(2)
+f2 = testNum.toString(8)
+f3 = testNum.toString(16)
+console.log(f0);
+console.log(f1);
+console.log(f2);
+console.log(f3);
+
+
+testStr = "3.14random"
+let testNum1 : number = +testStr.slice(0,4)
+f0 = testNum1.toString()
+f1 = testNum1.toString(2)
+f2 = testNum1.toString(8)
+f3 = testNum1.toString(16)
+console.log(f0);
+console.log(f1);
+console.log(f2);
+console.log(f3);
+
+testStr = "32px"
+let testNum2 : number = +testStr.slice(0,2)
+f0 = testNum2.toString()
+f1 = testNum2.toString(2)
+f2 = testNum2.toString(8)
+f3 = testNum2.toString(16)
+console.log(f0);
+console.log(f1);
+console.log(f2);
+console.log(f3);
+
+let testbol1 = true
+let testNum3 : number = +testbol1
+f0 = testNum3.toString()
+f1 = testNum3.toString(2)
+f2 = testNum3.toString(8)
+f3 = testNum3.toString(16)
+console.log(f0);
+console.log(f1);
+console.log(f2);
+console.log(f3);
+
+let testbol2 = false
+let testNum4 : number = +testbol2
+f0 = testNum4.toString()
+f1 = testNum4.toString(2)
+f2 = testNum4.toString(8)
+f3 = testNum4.toString(16)
+console.log(f0);
+console.log(f1);
+console.log(f2);
+console.log(f3);
+
+let testStr1 = "321"
+let testNum5 : number = +testStr1
+f0 = testNum5.toString()
+f1 = testNum5.toString(2)
+f2 = testNum5.toString(8)
+f3 = testNum5.toString(16)
+console.log(f0);
+console.log(f1);
+console.log(f2);
+console.log(f3);
+
+let testStr2 = "Supercode"
+let testNum6 : number = +testStr2.length
+f0 = testNum6.toString()
+f1 = testNum6.toString(2)
+f2 = testNum6.toString(8)
+f3 = testNum6.toString(16)
+console.log(f0);
+console.log(f1);
+console.log(f2);
+console.log(f3);
 
 
 
